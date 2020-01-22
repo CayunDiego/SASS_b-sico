@@ -1,0 +1,18 @@
+header{
+    margin-bottom: 1.5em;
+    nav{
+        a{
+            padding: 1em;
+            color: #FFF;
+            text-decoration: none;
+            background: $color-primario;
+            display: inline-block;
+            margin-right: 1em;
+            @include border-radius(5px);
+            &:hover{
+                background: #FF851B;
+                text-decoration: underline;
+            }
+        }
+    }
+}
